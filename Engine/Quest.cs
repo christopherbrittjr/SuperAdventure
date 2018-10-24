@@ -14,4 +14,5 @@ namespace Engine
         public int RewardExperiencePoints { get; set; }
         public int RewardGold { get; set; }
     }
+    
 }
