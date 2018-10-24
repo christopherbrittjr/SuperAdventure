@@ -15,10 +15,10 @@ namespace Engine
         public Item ItemRequiredToEnter { get; set; }
         public Quest QuestAvailableHere { get; set; }
         public Monster MonsterLivingHere { get; set; }
-        public Location LocationNorth { get; set; }
-        public Location LocationEast { get; set; }
-        public Location LocationSouth { get; set; }
-        public Location LocationWest { get; set; }
+        public Location LocationToNorth { get; set; }
+        public Location LocationToEast { get; set; }
+        public Location LocationToSouth { get; set; }
+        public Location LocationToWest { get; set; }
 
         public Location(int id, string name, string description, 
                         Item itemRequiredToEnter = null, Quest questAvailableHere = null, Monster monsterLivingHere = null)
